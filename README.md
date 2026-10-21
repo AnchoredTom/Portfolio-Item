@@ -1,4 +1,4 @@
-# Portfolio-Item
+# Portfolio Item
 
 How can I ensure that my code, program, or software is functional and secure?
 I can start by checking the requirements and testing what the software should do, including what should happen when someone enters invalid information. In Project One, I used JUnit 5 to test the contact service with valid records, duplicate IDs, missing contacts, and incorrect field values. For example, the tests make sure a phone number has exactly 10 digits and that adding a contact with an existing ID throws an exception. I also used separate test setups so one test would not affect another. Across the full project, 39 tests passed and the production classes reached 100% line coverage. That gave me confidence in the basic functions, but I learned that good coverage does not guarantee a program is completely secure. I would still need to review possible security risks and test how the software behaves when connected to other systems.
